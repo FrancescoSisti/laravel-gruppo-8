@@ -1,3 +1,109 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
-/* Altri stili personalizzati qui */
+/* Custom global styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Enhance navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffc107;
+}
+
+.nav-link {
+    position: relative;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffc107;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* Card improvements */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 1rem;
+}
+
+/* Footer enhancements */
+footer {
+    border-top: 4px solid #ffc107;
+    margin-top: auto;
+}
+
+footer .fas {
+    transition: transform 0.3s ease;
+}
+
+footer:hover .fa-heart {
+    transform: scale(1.2);
+}
+
+/* Buttons styling */
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container spacing */
+.container {
+    padding: 2rem 1rem;
+}
+
+/* Text improvements */
+.lead {
+    line-height: 1.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
