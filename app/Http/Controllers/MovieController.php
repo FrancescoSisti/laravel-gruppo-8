@@ -35,7 +35,7 @@ class MovieController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return view('pages.show');
     }
 
     /**
