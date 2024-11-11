@@ -22,7 +22,7 @@ class MovieSeeder extends Seeder
             "genre" => "Azione, Fantascienza, Thriller",
             "rating" => 8.8,
             "duraction" => 148,
-            "poster" => ""
+            "poster" => "https://m.media-amazon.com/images/I/91Rc8cAmnAL._AC_UF894,1000_QL80_.jpg"
         ],
         [
             "title" => "The Dark Knight",
@@ -32,7 +32,7 @@ class MovieSeeder extends Seeder
             "genre" => "Azione, Crimine, Drammatico",
             "rating" => 9.0,
             "duraction" => 152,
-            "poster" => ""
+            "poster" => "https://m.media-amazon.com/images/I/81rGCm0PyHL._AC_UF894,1000_QL80_.jpg"
         ],
         [
             "title" => "Forrest Gump",
@@ -42,7 +42,7 @@ class MovieSeeder extends Seeder
             "genre" => "Drammatico, Commedia",
             "rating" => 8.8,
             "duraction" => 142,
-            "poster" => ""
+            "poster" => "https://m.media-amazon.com/images/I/61++qxPiVuL._AC_UF1000,1000_QL80_.jpg"
         ],
         [
             "title" => "The Matrix",
@@ -52,18 +52,59 @@ class MovieSeeder extends Seeder
             "genre" => "Azione, Fantascienza",
             "rating" => 8.7,
             "duraction" => 136,
-            "poster" => ""
+            "poster" => "https://m.media-amazon.com/images/I/71x7df0yZdL.jpg"
         ],
         [
-            "title" => "Pulp Fiction",
-            "description" => "Le storie di vari personaggi si intrecciano in una serie di eventi casuali legati al crimine e alla redenzione.",
-            "director" => "Quentin Tarantino",
-            "release_year" => 1994,
+            "title" => "The Godfather",
+            "description" => "La saga della famiglia mafiosa dei Corleone, in particolare il passaggio di potere dal padre Don Vito al figlio Michael.",
+            "director" => "Francis Ford Coppola",
+            "release_year" => 1972,
             "genre" => "Crimine, Drammatico",
-            "rating" => 8.9,
-            "duraction" => 154,
-            "poster" => ""
+            "rating" => 9.2,
+            "duraction" => 175,
+            "poster" => "https://m.media-amazon.com/images/I/81B3U3Rv+hL._AC_UF1000,1000_QL80_.jpg"
         ],
+        [
+            "title" => "Schindler's List",
+            "description" => "La storia vera di Oskar Schindler, un imprenditore che ha salvato più di mille ebrei durante l'Olocausto.",
+            "director" => "Steven Spielberg",
+            "release_year" => 1993,
+            "genre" => "Drammatico, Storico",
+            "rating" => 9.0,
+            "duraction" => 195,
+            "poster" => "https://m.media-amazon.com/images/I/817R7RXH9PL._AC_UF1000,1000_QL80_.jpg"
+        ],
+        [
+            "title" => "Titanic",
+            "description" => "Un giovane artista e una giovane aristocratica si innamorano a bordo del Titanic, ma la nave affonda, cambiando le loro vite per sempre.",
+            "director" => "James Cameron",
+            "release_year" => 1997,
+            "genre" => "Drammatico, Romantico",
+            "rating" => 7.8,
+            "duraction" => 195,
+            "poster" => "https://m.media-amazon.com/images/I/51nbDBJ2h3L._AC_UF1000,1000_QL80_.jpg"
+        ],
+        [
+            "title" => "Gladiator",
+            "description" => "Un generale romano tradito diventa un gladiatore e cerca vendetta contro l'imperatore che ha ucciso la sua famiglia.",
+            "director" => "Ridley Scott",
+            "release_year" => 2000,
+            "genre" => "Azione, Avventura, Drammatico",
+            "rating" => 8.5,
+            "duraction" => 155,
+            "poster" => "https://m.media-amazon.com/images/I/71Emol9GByL._AC_UF1000,1000_QL80_.jpg"
+        ],
+        [
+            "title" => "Interstellar",
+            "description" => "Un gruppo di astronauti viaggia attraverso un buco nero per trovare un nuovo pianeta abitabile, mentre la Terra sta morendo.",
+            "director" => "Christopher Nolan",
+            "release_year" => 2014,
+            "genre" => "Avventura, Drammatico, Fantascienza",
+            "rating" => 8.6,
+            "duraction" => 169,
+            "poster" => "https://m.media-amazon.com/images/I/7150n4IJgFL._AC_UF1000,1000_QL80_.jpg"
+        ],
+
        ];
 
        foreach($movies as $movie){
